@@ -5,7 +5,6 @@
 
 ## Sections:
  **[Data](#data)**  |
-
  **[Exploration](#exploration)**  |
  **[Model](#model)**  |
  **[Results](#results)**  |
