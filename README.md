@@ -5,9 +5,9 @@
 
 ## Sections:
  **[Data](#data)**  |
- **[Main Hypothesis](#main-hypothesis)**  |
+
  **[Exploration](#exploration)**  |
- **[Statistical Analysis](#statistical-analysis)**  |
+ **[Model](#model)**  |
  **[Results](#results)**  |
  **[Takeaways](#takeaways)**  |
  
@@ -22,11 +22,6 @@ I used 4 datasets in this analysis
  
  <sub>[  **[Back to Sections](#sections)** ]</sub>
  
- ## Main Hypothesis
-
-
-
-<sub>[  **[Back to Sections](#sections)** ]</sub>
 
 ## Exploration
 
@@ -35,7 +30,7 @@ I used 4 datasets in this analysis
 
 <sub>[  **[Back to Sections](#sections)** ]</sub>
 
-## Statistical Analysis
+## Model
 
 
 
