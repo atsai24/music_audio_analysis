@@ -8,7 +8,6 @@
  **[Data](#data)**  |
  **[Exploration](#exploration)**  |
  **[Model](#model)**  |
- **[Results](#results)**  |
  **[Takeaways](#takeaways)**  |
  
  ---
@@ -94,6 +93,7 @@ There are 8 audio features provided by spotify for each track:
  <br>
  <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/liveness_by_genre.png">
  </details>
+ 
  - Speechiness: Presence of spoken word in a track, with 1.0 being and audio book or podcast. Most music is < 0.5
   <details>
    <summary>
@@ -102,6 +102,7 @@ There are 8 audio features provided by spotify for each track:
  <br>
  <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/speechiness_by_genre.png">
  </details>
+ 
  - Valence: The mood of a song between 0.0 and 1.0, 1.0 being happy and energetic, 0.0 being sad and depressed
   <details>
    <summary>
@@ -123,19 +124,47 @@ There are 8 audio features provided by spotify for each track:
 
 <sub>[  **[Back to Sections](#sections)** ]</sub>
 
+Song counts for each of the 12 genres in my final dataset used in the model:
+
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Genre_Song_Counts.png">
+
 ## Model
 
+I trained a Random Forest Classifier on the Spotify features and the extracted audio features resuting in a test accuracy of 74.45%
+
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Model_Accuracy_By_Genre.png" width="200" height="333">
+ 
+My model performed well for Old-time/Historic music and Rock music, but performed poorly for Pop, Instrumental, and Experimental music. There were not many Instrumental or Experimental songs for my model to train on, but that was not the case for Pop. I wanted to examine why my model did poorly for Pop music. It turns out Pop has high overlap with Rock and Electronic music so my model had trouble discerning the differences. This makes sense as Pop music is a product of the most popular genres at the time.
+
+  <details>
+   <summary>
+     Show Graphs
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Pop_acousticness.png">
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Pop_instrumentalness.png">
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Pop_speechiness.png">
+ </details>
+ 
+ In contrast, my model performed well on Old-Time/Historic music due to the major differences in features from other genres.
+ 
+   <details>
+   <summary>
+     Show Graphs
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Old_acousticness.png">
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Old_instrumentalness.png">
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/Old_speechiness.png">
+ </details>
 
 
 <sub>[  **[Back to Sections](#sections)** ]</sub>
 
-## Results
-
-
-<sub>[  **[Back to Sections](#sections)** ]</sub>
 
 ## Takeaways
 
+ In the future, I would like build a model that can discern Popular music from other popular genres like rock, electronic, and hip-hop. Additionally, I would like to use cloud computing to process audio data and build a model based on the waveforms themselves.
 
 
 <sub>[  **[Back to Sections](#sections)** ]</sub>
