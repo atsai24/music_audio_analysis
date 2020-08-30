@@ -78,7 +78,7 @@ There are 8 audio features provided by spotify for each track:
  </details> 
  
  - Instrumentalness: Confidence measure between 0.0 and 1.0 of whether a song is only instrumental
-   <details>
+  <details>
    <summary>
      Show Graph
    </summary>
@@ -87,7 +87,7 @@ There are 8 audio features provided by spotify for each track:
  </details>
  
  - Liveness: Confidence measure between 0.0 and 1.0 of whether a song is a live performance
-   <details>
+  <details>
    <summary>
      Show Graph
    </summary>
@@ -95,7 +95,7 @@ There are 8 audio features provided by spotify for each track:
  <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/liveness_by_genre.png">
  </details>
  - Speechiness: Presence of spoken word in a track, with 1.0 being and audio book or podcast. Most music is < 0.5
-   <details>
+  <details>
    <summary>
      Show Graph
    </summary>
@@ -103,7 +103,7 @@ There are 8 audio features provided by spotify for each track:
  <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/speechiness_by_genre.png">
  </details>
  - Valence: The mood of a song between 0.0 and 1.0, 1.0 being happy and energetic, 0.0 being sad and depressed
-   <details>
+  <details>
    <summary>
      Show Graph
    </summary>
@@ -112,7 +112,7 @@ There are 8 audio features provided by spotify for each track:
  </details>
 
  - Tempo: Estimated tempo of a track
-   <details>
+  <details>
    <summary>
      Show Graph
    </summary>
