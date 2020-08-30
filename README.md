@@ -67,54 +67,58 @@ There are 8 audio features provided by spotify for each track:
 <br>
 <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/danceability_by_genre.png">
 </details>
+
  - Energy: Percieved intensity of a track based features such as  on tempo, loudness, and dynamic range
- <details>
-  <summary>
-    Show Graph
-  </summary>
-<br>
-<img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/energy_by_genre.png">
-</details> 
+  <details>
+   <summary>
+     Show Graph
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/energy_by_genre.png">
+ </details> 
+ 
  - Instrumentalness: Confidence measure between 0.0 and 1.0 of whether a song is only instrumental
-  <details>
-  <summary>
-    Show Graph
-  </summary>
-<br>
-<img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/instrumentalness_by_genre.png">
-</details>
+   <details>
+   <summary>
+     Show Graph
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/instrumentalness_by_genre.png">
+ </details>
+ 
  - Liveness: Confidence measure between 0.0 and 1.0 of whether a song is a live performance
-  <details>
-  <summary>
-    Show Graph
-  </summary>
-<br>
-<img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/liveness_by_genre.png">
-</details>
+   <details>
+   <summary>
+     Show Graph
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/liveness_by_genre.png">
+ </details>
  - Speechiness: Presence of spoken word in a track, with 1.0 being and audio book or podcast. Most music is < 0.5
-  <details>
-  <summary>
-    Show Graph
-  </summary>
-<br>
-<img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/speachiness_by_genre.png">
-</details>
+   <details>
+   <summary>
+     Show Graph
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/speechiness_by_genre.png">
+ </details>
  - Valence: The mood of a song between 0.0 and 1.0, 1.0 being happy and energetic, 0.0 being sad and depressed
-  <details>
-  <summary>
-    Show Graph
-  </summary>
-<br>
-<img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/valence_by_genre.png">
-</details>
+   <details>
+   <summary>
+     Show Graph
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/valence_by_genre.png">
+ </details>
+
  - Tempo: Estimated tempo of a track
-  <details>
-  <summary>
-    Show Graph
-  </summary>
-<br>
-<img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/tempo_by_genre.png">
-</details>
+   <details>
+   <summary>
+     Show Graph
+   </summary>
+ <br>
+ <img src="https://github.com/atsai24/music_audio_analysis/blob/master/img/tempo_by_genre.png">
+ </details>
 
 
 <sub>[  **[Back to Sections](#sections)** ]</sub>
